@@ -1,7 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    cout << "\n Loading...!";
-    return 0; 
+class Array{
+private: 
+int capacity;
+int lastIndex;
+int *ptr;
+
+public: 
+Array();
+~Array();
+void createAray(int);
+
 }
