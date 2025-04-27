@@ -114,7 +114,7 @@ void deleteQueue(ArrayQueue* Q) {
 
 // Main function for demonstration
 int main() {
-      int capacity = MAX_CAPACITY;
+    int capacity = MAX_CAPACITY;
     ArrayQueue* queue = createQueue(capacity);
     if (!queue) return -1;
 
@@ -124,7 +124,7 @@ int main() {
     printf("Available operations: enqueue <value>, dequeue, print, get_front, get_rear, get_size, end\n");
     while (1) {
         printf("Enter operation: ");
-        scanf("%s", operation);
+        scanf("%s",operation);
 
         if (strcmp(operation, "enqueue") == 0) {
             scanf("%d", &value);
